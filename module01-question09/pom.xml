@@ -9,16 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>module01-question06</artifactId>
-
     <packaging>pom</packaging>
     <modules>
-        <module>module01-question06-non-web</module>
-        <module>module01-question06-web-servlet2</module>
-<!--        <module>module01-question06-web-servlet3-xml</module>-->
-        <module>module01-question06-web-servlet3-annotation</module>
-        <module>module01-question06-boot-cli</module>
-        <module>module01-question06-boot-web</module>
+        <module>module01-question09-non-web</module>
+        <module>module01-question09-web</module>
+        <module>module01-question09-boot</module>
     </modules>
+
+    <artifactId>module01-question09</artifactId>
+
 
 </project>

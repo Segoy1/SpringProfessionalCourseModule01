@@ -9,16 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>module01-question06</artifactId>
+    <artifactId>module01-question18</artifactId>
 
-    <packaging>pom</packaging>
-    <modules>
-        <module>module01-question06-non-web</module>
-        <module>module01-question06-web-servlet2</module>
-<!--        <module>module01-question06-web-servlet3-xml</module>-->
-        <module>module01-question06-web-servlet3-annotation</module>
-        <module>module01-question06-boot-cli</module>
-        <module>module01-question06-boot-web</module>
-    </modules>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+    </dependencies>
 </project>
