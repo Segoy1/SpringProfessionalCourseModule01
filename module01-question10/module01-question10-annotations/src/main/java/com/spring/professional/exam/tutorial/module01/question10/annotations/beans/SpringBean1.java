@@ -7,13 +7,18 @@ import javax.annotation.PostConstruct;
 
 @Component
 public class SpringBean1 {
-    @Autowired
+
     private SpringBean2 springBean2;
-    @Autowired
+
     private SpringBean3 springBean3;
 
     public SpringBean1() {
         System.out.println(getClass().getSimpleName() + "::constructor");
+    }
+
+    public SpringBean1(SpringBean2 springBean2, SpringBean3 springBean3) {
+        this.springBean2 = springBean2;
+        this.springBean3 = springBean3;
     }
 
     @PostConstruct
